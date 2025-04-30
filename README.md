@@ -106,6 +106,24 @@ To open the demo level, you need to enable "Show Plugin Content" in the Content 
     *   `Out User Friendly Name` (FString): The retrieved user-friendly font name. May be the same as the input or empty on failure.
 *   **Return Value:** (Boolean): `true` if a user-friendly name was successfully retrieved, `false` otherwise.
 
+## FAQ (Frequently Asked Questions)
+
+**Q: Does this plugin work in packaged applications (Shipping builds)?**
+
+A: Yes, it does.
+
+**Q: Is it compatible with platforms other than Windows (e.g., macOS, Linux, iOS, Android)?**
+
+A: No, it is not compatible.
+
+**Q: If I install a new font while the application is running, will it appear in the list immediately?**
+
+A: No, it will not. The font list cache is built when the engine (or editor) starts up. To use newly installed fonts, you need to restart the engine or the application.
+
+**Q: Can I use this plugin for commercial projects?**
+
+A: Yes, you can. This plugin is provided under the MIT license, allowing you to use it freely within the terms of the license.
+
 ## Notes and Limitations
 
 *   **Windows Only:** This plugin heavily relies on Windows APIs and **will not work** on macOS, Linux, mobile platforms, etc. You will need platform checks or alternative solutions if using this in a cross-platform project.
