@@ -6,7 +6,7 @@
 
 (Read this document in other languages: [English](README.md)) <!-- Optional: If you plan to provide a Japanese version -->
 
-WindowsシステムにインストールされているフォントをUnreal Engineプロジェクト内で簡単に利用できるようにするプラグインです。
+WindowsシステムにインストールされているフォントをUnreal Engineプロジェクト内で利用できるようにするプラグインです。
 
 ## 概要
 
@@ -21,14 +21,14 @@ WindowsシステムにインストールされているフォントをUnreal Eng
 
 ## 対応環境
 
-*   **Unreal Engine:** 5.5 以降 (ソースコード内の `EngineVersion` に基づく)
+*   **Unreal Engine:** 5.5
 *   **プラットフォーム:** **Windows (64bit)** のみ
     *   このプラグインはWindows API (レジストリ、GDI、Shell API) に依存しているため、他のプラットフォームでは動作しません。
 
 ## インストール
 
 1.  **リリースページからダウンロード:**
-    *   [GitHub リリースページ](https://github.com/yeczrtu/SystemFontLoader/releases) (<- URLは後で設定してください) から最新版のzipファイルをダウンロードします。
+    *   [GitHub リリースページ](https://github.com/yeczrtu/SystemFontLoader/releases)から最新版のzipファイルをダウンロードします。
 2.  **プロジェクトへの配置:**
     *   ダウンロードしたzipファイルを解凍します。
     *   解凍された `SystemFontLoader` フォルダを、あなたのUnreal Engineプロジェクトの `Plugins` フォルダにコピーします。(例: `MyProject/Plugins/SystemFontLoader`)
