@@ -106,7 +106,7 @@ To open the demo level, you need to enable "Show Plugin Content" in the Content 
     *   `Out User Friendly Name` (FString): The retrieved user-friendly font name. May be the same as the input or empty on failure.
 *   **Return Value:** (Boolean): `true` if a user-friendly name was successfully retrieved, `false` otherwise.
 
-## FAQ (Frequently Asked Questions)
+## FAQ
 
 **Q: Does this plugin work in packaged applications (Shipping builds)?**
 
