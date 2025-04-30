@@ -46,7 +46,7 @@ WindowsシステムにインストールされているフォントをUnreal Eng
 
 プラグインを有効にすると、Blueprintエディタの関数リストで `System Font Loader` カテゴリの下に以下の関数が表示されます。
 
-![Blueprint Functions](placeholder_blueprint_functions.png) <!-- 後で実際のスクリーンショットに差し替えてください -->
+![Blueprint Functions](Docs/blueprint_getsystemfontnames.jpg)
 
 1.  **Get System Font Names:**
     *   利用可能なシステムフォント名のリスト（内部キャッシュキー）を取得します。通常、アプリケーションの起動時や設定画面の初期化時に呼び出します。
@@ -58,7 +58,7 @@ WindowsシステムにインストールされているフォントをUnreal Eng
 
 **簡単な使用例 (Widget Blueprint):**
 
-![Blueprint Example](placeholder_blueprint_example.png) <!-- 後で実際のスクリーンショットに差し替えてください -->
+![Blueprint Example](Docs/blueprint_example.jpg)
 
 *   `Event Construct` で `Get System Font Names` を呼び出し、フォント名の配列を取得します。
 *   取得した配列をループし、`Get User Friendly Font Name` で表示名を取得して `ComboBox String` に追加します。同時に内部名を別の配列などに保持しておくと良いでしょう。
@@ -74,7 +74,7 @@ WindowsシステムにインストールされているフォントをUnreal Eng
     *   UMGウィジェットを使用して、システムフォントの一覧をコンボボックスに表示します。
     *   コンボボックスでフォントを選択すると、下のテキストブロックのフォントが選択されたものに変わります。
 
-![Demo Level Screenshot](placeholder_demo_level.png) <!-- 後で実際のスクリーンショットに差し替えてください -->
+![Demo Level Screenshot](Docs/demo_level.jpg)
 
 デモレベルを開くには、コンテンツブラウザの設定で「プラグインコンテンツを表示」を有効にする必要があります。
 

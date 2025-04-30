@@ -46,7 +46,7 @@ This plugin utilizes the Windows Registry and GDI API to retrieve information ab
 
 Once the plugin is enabled, the following functions will appear under the `System Font Loader` category in the Blueprint editor's function list:
 
-![Blueprint Functions](placeholder_blueprint_functions.png) <!-- Replace with actual screenshot -->
+![Blueprint Functions](Docs/blueprint_getsystemfontnames.jpg)
 
 1.  **Get System Font Names:**
     *   Retrieves a list of available system font names (internal cache keys). Typically called during application startup or when initializing a settings screen.
@@ -58,7 +58,7 @@ Once the plugin is enabled, the following functions will appear under the `Syste
 
 **Simple Usage Example (Widget Blueprint):**
 
-![Blueprint Example](placeholder_blueprint_example.png) <!-- Replace with actual screenshot -->
+![Blueprint Example](Docs/blueprint_example.jpg)
 
 *   Call `Get System Font Names` in the `Event Construct` to get an array of font names.
 *   Loop through the array. For each name, call `Get User Friendly Font Name` to get the display name and add it to a `ComboBox String`. It's good practice to store the corresponding internal names in another array.
@@ -74,7 +74,7 @@ The plugin content includes a demo level demonstrating basic usage.
     *   Uses a UMG widget to display a list of system fonts in a combo box.
     *   Selecting a font in the combo box changes the font of the text block below it.
 
-![Demo Level Screenshot](placeholder_demo_level.png) <!-- Replace with actual screenshot -->
+![Demo Level Screenshot](Docs/demo_level.jpg)
 
 To open the demo level, you need to enable "Show Plugin Content" in the Content Browser's settings.
 
